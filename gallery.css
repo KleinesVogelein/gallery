@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+ display: flex;
+ flex-wrap: wrap;
+  justify-content: center;
+
+}
+.block{
+  width: 158px; /*205  244*/
+  height: 223px; /*290 338*/
+  margin: 10px 12.5px;
+}
+.block1{
+  background-color: lightblue;
+}
+.block2{
+  background-color: pink;
+}
+.block3{
+  background-color: purple;
+}
+.block4{
+  background-color: orange;
+}
+@media only screen and (min-width: 426px){
+  .block{
+    width: 205px; /*205  244*/
+    height: 290px; /*290 338*/
+    margin: 10px 20px;
+  }
+}
+@media only screen and (min-width: 1300px){
+  .block{
+    width: 244px; /*205  244*/
+    height: 338px; /*290 338*/
+    margin: 10px 36.5px;
+  }
+}
